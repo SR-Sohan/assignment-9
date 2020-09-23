@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.login{
+    background: #F9A51A;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 80px;
+    filter: brightness(100);
+}
+.navbar-dark .navbar-nav a {
+    text-decoration: none;
+    color: white;
+    margin: 8px 25px;
+    font-weight: 500;
+}
+.form-inline .form-control {
+    width: 350px;
+    position: relative;
+    padding: 15px 55px;
+}
+.form-inline  svg{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}

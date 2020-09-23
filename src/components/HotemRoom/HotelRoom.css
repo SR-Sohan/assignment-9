@@ -1,0 +1,32 @@
+.hotelroom-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-top: 2px solid gray;
+    margin-bottom: 50px;
+}
+.hotelroom-area .navbar-brand img{
+    filter: brightness(1);
+}
+.hotelroom-area .navbar-dark .navbar-nav a{
+    color: black;
+}
+.hotelroom-area .navbar-dark .navbar-nav a:hover {
+    color: rgb(31, 30, 30);
+}
+.google-map{
+    width: 48%;
+}
+.single-rooms span{
+    color: gray;
+    font-size: 14px;
+}
+.single-rooms h3 span{
+    text-transform: capitalize;
+    color: black;
+    font-size: 24px;
+}
+.hotelroom-area .form-inline input,
+.hotelroom-area .form-inline svg {
+    display: none;
+}

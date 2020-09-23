@@ -1,0 +1,91 @@
+.login-area .navbar-brand img{
+    filter: brightness(1);
+}
+.login-area .navbar-dark .navbar-nav a{
+    color: black;
+}
+.login-area .navbar-dark .navbar-nav a:hover {
+    color: rgb(31, 30, 30);
+}
+.create-user{
+    width: 570px;
+    border: 2px solid gray;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+
+.create-user input{
+    width: 462px;
+    height: 32px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 15px;
+
+}
+.create-user input[type="submit"]{
+    background-color: #F9A51A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.create-user p span{
+    color: #fa9e0bf3;
+    cursor: pointer;
+    font-weight: 700;
+}
+.or-area p{
+    text-align: center;
+    position: relative;
+}
+.or-area p::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: gray;
+    left: 39%;
+    top: 55%;
+}
+.or-area p::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: gray;
+    right: 39%;
+    top: 55%;
+}
+.social{
+    width: 261px;
+    height: 51px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: .5s;
+}
+.social:hover{
+    color: white;
+    background: #F9A51A;
+}
+.social:active{
+    background:  #fdb747;
+}
+.social span{
+    margin-left: 25px;
+}
+.social img{
+    width: 31px;
+    height: 31px;
+}
+.login-area .form-inline input,
+.login-area .form-inline svg {
+    display: none;
+}
